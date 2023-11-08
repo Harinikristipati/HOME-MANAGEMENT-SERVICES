@@ -1,0 +1,112 @@
+body{
+  background-color: palegoldenrod;
+}
+.booking-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.booking-form-container {
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #12e466;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-right: 100px;
+  background-image: url("https://images.unsplash.com/photo-1614850523296-d8c1af93d400?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGlnaHQlMjBjb2xvdXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+  
+}
+.image-container{
+  position: relative;
+  bottom:450px;
+  justify-content: flex-start;
+  margin-left: 600px;
+  width:200px;
+}
+
+/* Styles for form elements */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #5d0ce0;
+  border-radius: 5px;
+}
+
+
+button {
+  background-color: rgb(64, 23, 201);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0c396a;
+}
+
+/* Styles for the booking postcards container */
+.booking-postcards-container {
+  width: 80%;
+  max-width: 800px;
+}
+
+/* Styles for the heading inside the postcards container */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for individual booking postcards */
+.booking-postcards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: aqua;
+
+}
+
+.booking-postcard {
+  width: 300px;
+  background-color:orange;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #000; /* Text color */
+}
+
+
+.booking-postcards-container button {
+  background-color:skyblue;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.booking-postcards-container button:hover {
+  background-color: bisque;
+}
